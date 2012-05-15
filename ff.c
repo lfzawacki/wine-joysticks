@@ -88,7 +88,6 @@ BOOL CALLBACK EffectsCallback(const DIEFFECTINFO *pdei, LPVOID pvRef)
     struct Joystick *joystick = pvRef;
     HRESULT hr;
     DIEFFECT diEffect;
-    DICONSTANTFORCE diConstantForce;
 
     if (joystick->effects == NULL)
     {
