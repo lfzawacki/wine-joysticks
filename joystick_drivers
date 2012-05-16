@@ -1,0 +1,1 @@
+WINEDEBUG=+dinput wine joystick.exe 2>&1 | grep -E "joydev_enum_device|find_joydevs Found"
