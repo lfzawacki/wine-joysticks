@@ -12,5 +12,8 @@ joystick.exe: main.c
 forcefeedback.exe: ff.c
 	$(CC) -o $@ $^ -ldinput8 -ldxguid $(FLAGS)
 
+joystickid.exe: joystickid.c
+	$(CC) -o $@ $^ -ldinput8 -ldxguid $(FLAGS)
+
 clean:
 	rm *.exe
